@@ -49,7 +49,7 @@ public class Main {
         while (years < 10){
             years = years + 1;
             totalPopulation = totalPopulation + (totalPopulation/1000) * (birthRate - mortalityRate);
-            System.out.println("Год " + years + ", численность населения составляет " + y);
+            System.out.println("Год " + years + ", численность населения составляет " + totalPopulation);
         }
     }
 }
